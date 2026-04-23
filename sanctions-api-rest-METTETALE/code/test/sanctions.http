@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:4500/api
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxOSIsImlhdCI6MTc3MDAyMTc2NCwiZXhwIjoxNzcwMDI4OTY0LCJpZCI6MTksImVtYWlsIjoidmllLXNjb2xhaXJlMUB0ZXN0LmNvbSIsIm5vbSI6InRlc3RQcm9mIiwicHJlbm9tIjoidGVzdFByb2YifQ.nTymu-qMX_ME7jfYn2WV_bf3O-pRYygEQu24E2uWffs
+
+GET {{baseUrl}}/eleves/6/sanctions
+Authorization: Bearer {{token}}
+
+# AAAA/MM/JJ
